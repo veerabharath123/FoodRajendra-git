@@ -1,0 +1,20 @@
+.table{
+    text-align: center;
+}
+.addemp{
+    width: auto;
+}
+.empdiv{
+    display: flex;
+    position: absolute;
+}
+.emptitle{
+    text-align: center;
+    
+}
+.modal-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

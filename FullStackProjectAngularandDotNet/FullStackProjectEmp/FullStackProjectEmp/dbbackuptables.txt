@@ -1,0 +1,53 @@
+create table Gender
+(
+gender_id int primary key Identity(1,1),
+gender_name nvarchar(max)
+);
+
+insert into Gender(gender_name)
+values('Male'),('Female'),('Others');
+
+create table Department
+(
+dept_id int primary key identity(1,1),
+dept_name nvarchar(max)
+);
+
+insert into Department(dept_name)
+values('IT'),('HR'),('Accounts'),('Sales');
+
+create table EState
+(
+state_id int primary key identity(1,1),
+state_name nvarchar(max)
+);
+insert into EState(state_name)
+values('Telangana'),('Karnataka'),('Tamil Nadu'),('Maharastra');
+
+create table City
+(
+city_id int primary key identity(1,1),
+city_name nvarchar(max),
+state_id int foreign key References EState(state_id)
+);
+insert into City(city_name,state_id)
+values('Hyderabad',1),('Warangal',1),('Benguluru',2),('Chickmanglore',2),('Chennai',3),('Sellam',3),('Mumbai',4),('Pune',4);
+
+create table Employee
+(
+emp_id int primary key identity(1,1),
+emp_name nvarchar(max),
+emp_phone char(10),
+emp_email nvarchar(max),
+emp_salary money,
+emp_gender int foreign key references Gender(gender_id),
+emp_dept int foreign key references Department(dept_id),
+emp_city int foreign key references City(city_id),
+emp_state int foreign key references EState(state_id),
+emp_activeflag char(1)
+);
+
+insert into Employee(emp_name,emp_phone,emp_email,emp_salary,emp_gender,emp_dept,emp_city,emp_state,emp_activeflag)
+values('Rajendra','9123123123','rajendra@example.com',15800,1,1,1,1,'Y'),
+('Rajesh','8123123123','rajesh@example.com',15800,2,1,1,1,'Y');
+

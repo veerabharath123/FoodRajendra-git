@@ -1,0 +1,120 @@
+<!-- <p>home works!</p> -->
+
+<div class="container mt-3">
+  <div class="empdiv">
+    <button
+      href="#"
+      class="btn btn-primary mb-3 addemp"
+      (click)="onAddEmployee()"
+    >
+      <i class="fa-solid fa-user-plus"></i> Add Employee
+    </button>
+  </div>
+  <h2 class="emptitle">Employee List</h2>
+  <table class="table table-striped ">
+    <thead>
+      <tr>
+        <th>Operations</th>
+        <th>Name</th>
+        <th>Phone</th>
+        <th>Email</th>
+        <th>Department</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let emp of employees">
+        <td>
+          <div class="row">
+            <div class="col-4">
+              <i
+                type="button"
+                (click)="onEdit(emp.emp_id)"
+                class="fa-solid fa-user-pen text-warning"
+              ></i>
+            </div>
+            <div class="col-4">
+              <i
+                class="fa-solid fa-eye text-info"
+                type="button"
+                data-bs-toggle="modal" data-bs-target="#myModal" (click)="selectedEmp=emp; clickedView=true"
+              ></i>
+            </div>
+            <div class="col-4">
+              <i
+                type="button"
+                class="fa-solid fa-user-xmark text-danger"
+                data-bs-toggle="modal" data-bs-target="#myModal" (click)="selectedEmp=emp;clickedView=false"
+              ></i>
+            </div>
+          </div>
+        </td>
+        <td>{{ emp.emp_name }}</td>
+        <td>{{ emp.emp_phone }}</td>
+        <td>{{ emp.emp_email }}</td>
+        <td>{{ emp.dept_name }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+<div class="modal fade " id="myModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 [class]="'modal-title w-100  text-center text-'+(clickedView?'info':'danger')" >{{!clickedView?'Delete Warning ⚠':'View Details 👁'}}</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body --> 
+      <div class="modal-body">
+        <table>
+          <tbody>
+            <tr>
+              <td><b>Name</b> </td>: 
+              <td>{{selectedEmp?.emp_name}}</td>
+            </tr>
+            <tr>
+              <td><b>Email</b> </td>: 
+              <td>{{selectedEmp?.emp_email}}</td>
+            </tr>
+            <tr>
+              <td><b>Phone Number</b> </td>:
+              <td>{{selectedEmp?.emp_phone}}</td>
+            </tr>
+            <tr>
+              <td><b>Salary</b></td>:
+              <td>{{selectedEmp?.emp_salary}}</td>
+            </tr>
+            <tr>
+              <td><b>Department</b></td>:
+              <td>{{selectedEmp?.dept_name}}</td>
+            </tr>
+            <tr>
+              <td><b>Gender</b></td>:
+              <td>{{selectedEmp?.gender_name}}</td>
+            </tr>
+            <tr>
+              <td><b>State</b></td>:
+              <td>{{selectedEmp?.state_name}}</td>
+            </tr>
+            <tr>
+              <td><b>City</b></td>:
+              <td>{{selectedEmp?.city_name}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal" *ngIf="!clickedView" (click)="deleteEmployee()"
+        >Delete</button>
+        <button type="button" class="btn btn-dark " data-bs-dismiss="modal">Cancel</button>
+      </div>
+
+    </div>
+  </div>
+</div>
