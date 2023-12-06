@@ -1,0 +1,93 @@
+﻿@model List<RecipeDetails>
+@{
+    ViewData["Title"] = "Recipe";
+}
+
+<div class="container">
+    <div class="container mt-3 tblb">
+        <h3 class="text-light">Your Recipes</h3>
+        <hr />
+        <div class="row mt-3 mb-3">
+            <div class="col-12 d-start">
+                <a class="btn btn-primary" href="@Url.Action("Details","Home")">
+                    <i class="fa-solid fa-plus"></i>
+                </a>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12 h-50">
+                <table class="table table-striped text-center">
+                    <tr>
+                        <th></th>
+                        <th class="text-light">Recipe Name</th>
+                        <th class="text-light">No of Ingredients</th>
+
+                    </tr>
+
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+
+                            <td class="options">
+
+                                <a href="@Url.Action("View","Home",new {id=item.ID})" class="" title="View">
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                                <a href="@Url.Action("Details","Home",new {id=item.ID})" class="text-warning" title="Edit">
+                                    <i class="fa fa-edit"></i>
+                                </a>
+                                <span data-id="@item.ID" class="Favourite" title="Favourite">
+                                    @if (item.FAVOURITES == "Y")
+                                    {
+                                        <i class="fa-solid c-pink fa-heart"></i>
+                                    }
+                                    else
+                                    {
+                                        <i class="fa-regular fa-heart"></i>
+                                    }
+                                </span>
+                            </td>
+                            <td class="text-light">@item.RECIPE_NAME</td>
+                            <td class="text-light">@item.TotalIngredients</td>
+
+                        </tr>
+                    }
+                </table>
+            </div>
+        </div>
+
+        @* <div class="col-12">
+            <div class="row r-start">
+                @foreach(var item in Model)
+                {
+                    <div class="col-md-2 col-sm-6">
+                        <div class="img-block d-center">
+                            <img src="https://cdn4.vectorstock.com/i/1000x1000/16/68/food-logo-template-vector-26541668.jpg" class="img-thumbnail  d-center" alt="" />
+                        </div>
+                        <div class="text-info">@item.RECIPE_NAME</div>
+                    </div>
+                }
+            </div>
+        </div> *@
+    </div>
+<script>
+    $('.Favourite').on('click', function () {
+        let ele = $(this);
+        let btn = ele.find('i')
+        $.ajax({
+            url: '@Url.Action("ChangeFav","Home")',
+            type: 'POST',
+            data: { id: ele.data('id'), change: btn.hasClass('fa-regular') },
+            success: function (res) {
+                if (res['success'] == true) {
+
+                    btn.hasClass('fa-regular') ?
+                        btn.removeClass('fa-regular').addClass('fa-solid c-pink') :
+                        btn.removeClass('fa-solid c-pink').addClass('fa-regular')
+                }
+            }
+        })
+    })
+</script>
+</div>
+

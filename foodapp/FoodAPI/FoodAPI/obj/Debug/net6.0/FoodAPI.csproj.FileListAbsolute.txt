@@ -1,0 +1,160 @@
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\appsettings.Development.json
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\appsettings.json
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\FoodAPI.exe
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\FoodAPI.deps.json
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\FoodAPI.runtimeconfig.json
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\FoodAPI.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\FoodAPI.pdb
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Azure.Core.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Azure.Identity.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\System.Memory.Data.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\obj\Debug\net6.0\FoodAPI.csproj.AssemblyReference.cache
+D:\.NET\Web API\FoodAPI\FoodAPI\obj\Debug\net6.0\FoodAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET\Web API\FoodAPI\FoodAPI\obj\Debug\net6.0\FoodAPI.AssemblyInfoInputs.cache
+D:\.NET\Web API\FoodAPI\FoodAPI\obj\Debug\net6.0\FoodAPI.AssemblyInfo.cs
+D:\.NET\Web API\FoodAPI\FoodAPI\obj\Debug\net6.0\FoodAPI.csproj.CoreCompileInputs.cache
+D:\.NET\Web API\FoodAPI\FoodAPI\obj\Debug\net6.0\FoodAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\.NET\Web API\FoodAPI\FoodAPI\obj\Debug\net6.0\FoodAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\.NET\Web API\FoodAPI\FoodAPI\obj\Debug\net6.0\staticwebassets\msbuild.FoodAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\.NET\Web API\FoodAPI\FoodAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.FoodAPI.props
+D:\.NET\Web API\FoodAPI\FoodAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FoodAPI.props
+D:\.NET\Web API\FoodAPI\FoodAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FoodAPI.props
+D:\.NET\Web API\FoodAPI\FoodAPI\obj\Debug\net6.0\staticwebassets.pack.json
+D:\.NET\Web API\FoodAPI\FoodAPI\obj\Debug\net6.0\staticwebassets.build.json
+D:\.NET\Web API\FoodAPI\FoodAPI\obj\Debug\net6.0\staticwebassets.development.json
+D:\.NET\Web API\FoodAPI\FoodAPI\obj\Debug\net6.0\scopedcss\bundle\FoodAPI.styles.css
+D:\.NET\Web API\FoodAPI\FoodAPI\obj\Debug\net6.0\FoodAPI.csproj.CopyComplete
+D:\.NET\Web API\FoodAPI\FoodAPI\obj\Debug\net6.0\FoodAPI.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\obj\Debug\net6.0\refint\FoodAPI.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\obj\Debug\net6.0\FoodAPI.pdb
+D:\.NET\Web API\FoodAPI\FoodAPI\obj\Debug\net6.0\FoodAPI.genruntimeconfig.cache
+D:\.NET\Web API\FoodAPI\FoodAPI\obj\Debug\net6.0\ref\FoodAPI.dll
+D:\.NET\Web API\FoodAPI\FoodAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\appsettings.Development.json
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\appsettings.json
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\FoodAPI.exe
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\FoodAPI.deps.json
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\FoodAPI.runtimeconfig.json
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\FoodAPI.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\FoodAPI.pdb
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Azure.Core.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Azure.Identity.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\System.Memory.Data.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\obj\Debug\net6.0\FoodAPI.csproj.AssemblyReference.cache
+D:\rajendra\foodapp\FoodAPI\FoodAPI\obj\Debug\net6.0\FoodAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\rajendra\foodapp\FoodAPI\FoodAPI\obj\Debug\net6.0\FoodAPI.AssemblyInfoInputs.cache
+D:\rajendra\foodapp\FoodAPI\FoodAPI\obj\Debug\net6.0\FoodAPI.AssemblyInfo.cs
+D:\rajendra\foodapp\FoodAPI\FoodAPI\obj\Debug\net6.0\FoodAPI.csproj.CoreCompileInputs.cache
+D:\rajendra\foodapp\FoodAPI\FoodAPI\obj\Debug\net6.0\FoodAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\rajendra\foodapp\FoodAPI\FoodAPI\obj\Debug\net6.0\FoodAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\rajendra\foodapp\FoodAPI\FoodAPI\obj\Debug\net6.0\staticwebassets\msbuild.FoodAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\rajendra\foodapp\FoodAPI\FoodAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.FoodAPI.props
+D:\rajendra\foodapp\FoodAPI\FoodAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FoodAPI.props
+D:\rajendra\foodapp\FoodAPI\FoodAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FoodAPI.props
+D:\rajendra\foodapp\FoodAPI\FoodAPI\obj\Debug\net6.0\staticwebassets.pack.json
+D:\rajendra\foodapp\FoodAPI\FoodAPI\obj\Debug\net6.0\staticwebassets.build.json
+D:\rajendra\foodapp\FoodAPI\FoodAPI\obj\Debug\net6.0\staticwebassets.development.json
+D:\rajendra\foodapp\FoodAPI\FoodAPI\obj\Debug\net6.0\scopedcss\bundle\FoodAPI.styles.css
+D:\rajendra\foodapp\FoodAPI\FoodAPI\obj\Debug\net6.0\FoodAPI.csproj.CopyComplete
+D:\rajendra\foodapp\FoodAPI\FoodAPI\obj\Debug\net6.0\FoodAPI.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\obj\Debug\net6.0\refint\FoodAPI.dll
+D:\rajendra\foodapp\FoodAPI\FoodAPI\obj\Debug\net6.0\FoodAPI.pdb
+D:\rajendra\foodapp\FoodAPI\FoodAPI\obj\Debug\net6.0\FoodAPI.genruntimeconfig.cache
+D:\rajendra\foodapp\FoodAPI\FoodAPI\obj\Debug\net6.0\ref\FoodAPI.dll

@@ -1,0 +1,141 @@
+﻿@model RecipeDetails
+@{
+    ViewData["Title"] = $"{(Model.ID > 0 ? "Edit" : "Add")} recipe";
+}
+<div class="Container">
+    <div class="container mt-3 ">
+        <h3 class="text-light ">
+            <a asp-action="index" asp-controller="home" class="text-light nU">
+                <i class="fa-solid fa-arrow-left"></i>
+            </a> @($"{(Model.ID > 0 ? "Edit" : "Add")} recipe")
+            <i class="fa-solid fa-utensils"></i>
+        </h3>
+        <hr />
+        <div class="row mt-4 mb-3">
+            <div class="col-12 d-start">
+                <button type="button" class="btn btn-info show-ing" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Show Ingredients
+
+                </button>
+            </div>
+        </div>
+        <form action="@Url.Action("SaveRecipe","Home")">
+            <div class="row">
+                <div class="col-md-4 bgblur">
+                    <img src="https://cdn4.vectorstock.com/i/1000x1000/16/68/food-logo-template-vector-26541668.jpg" class="img-thumbnail" alt="" />
+                    <br />
+                    <input type="file" class="form-control " />
+                </div>
+                
+                <div class="col-md-8">
+                    @Html.HiddenFor(x => x.ID,new {@class="form-control"})
+                    <div class="mb-3 mt-3">
+                        <label for="email" class="form-label text-light">Recipe Name:</label>
+                        @Html.TextBoxFor(x => x.RECIPE_NAME,new {@class="form-control bgblur text-light"})
+                    </div>
+                    <div class="mb-3 ">
+                        <label for="pwd" class="form-label text-light ">Steps:</label>
+                        @Html.TextAreaFor(x => x.DESCRIPTION,new {@class="form-control bgblur text-light",@rows="10"})
+                    </div>
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content partial">
+                                @Html.PartialAsync("IngredientPartial", Model.Ingredients)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <button type="submit" class="btn btn-@(Model.ID > 0 ? "warning" : "primary")">@($"{(Model.ID > 0 ? "Edit" : "Add")} recipe")</button>
+                    @if (Model.ID > 0)
+                    {
+                        <button data-id="@Model.ID" class="btn btn-danger" type="button" id="delrecipe">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                    }
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+</div>
+
+<script>
+    $(document).on('click', '#delbtn', function () {
+        if ($('.partial .ing').length > 1) {
+            let ing = $('.partial .ing:last');
+            if (ing.find('input.id').val() != '0') {
+                $.ajax({
+                    url: '@Url.Action("DeleteIngrediants","Home")',
+                    data: { id: ing.find('input.id').val() },
+                    type: 'POST',
+                    success: function (res) {
+                        if (res["success"]) {
+                            ing.remove()
+                            $('#staticBackdropLabel').text('Ingredients : ' + $('.partial .ing').length)
+                        }
+                    }
+                })
+            } else {
+                ing.remove()
+                $('#staticBackdropLabel').text('Ingredients : ' + $('.partial .ing').length)
+            }
+            // let ing = $('.partial .ing:last');
+            // $('.partial .ing:last').remove()
+        }
+        if ($('.partial .ing').length == 1)
+            $(this).remove()
+    })
+
+    $(document).on('click', '#delrecipe', function () {
+        $.ajax({
+            url: '@Url.Action("DeleteRecipe","Home")',
+            data: { id: $(this).data('id') },
+            type: 'POST',
+            success: function (res) {
+                if (res['success'] == true) {
+                    alert(res['message']);
+                    window.location.href = '@Url.Action("Index","Home")'
+                }
+                else alert(res['message']);
+            },
+            error: function () { alert("Operation failed") }
+        })
+    })
+    function addIngredient() {
+        let data = [];
+        $('.ing').each((i, e) =>
+            data.push({
+                INGREDIENT_NAME: $(e).find('input.Name').val(),
+                QUANTITY: $(e).find('input.Quantity').val(),
+                RECIPE_ID: $(e).find('input.recipe_id').val(),
+                ID: $(e).find('input.id').val(),
+            })
+        )
+        data.push({
+            INGREDIENT_NAME: '',
+            QUANTITY: '',
+            RECIPE_ID: 0,
+            ID: 0,
+        })
+        $.ajax({
+            url: '@Url.Action("LoadIngredients","Home")',
+            type: 'POST',
+            data: { data: JSON.stringify(data) },
+            success: function (res) {
+                $('.partial').html(res)
+            },
+            error: function () {
+                alert("error")
+            }
+        })
+    }
+    $(document).on('click', '#addbtn', addIngredient)
+    $(document).on('click', '.show-ing', function () {
+        if ($('.partial .ing').length == 0)
+            addIngredient()
+    })
+</script>

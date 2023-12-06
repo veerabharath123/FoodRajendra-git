@@ -1,0 +1,60 @@
+﻿@model RecipeDetails
+@{
+    ViewData["Title"] = $"View recipe";
+}
+<div class="container">
+    <div class="container mt-4 mb-2 tblb">
+        <h3 class="text-light"><a asp-action="index" asp-controller="home" class="text-light"><i class="fa-solid fa-arrow-left"></i></a> View Recipe</h3>
+        <hr />
+        <div class="row mt-3 mb-3">
+            <h5 class="text-light">Recipe Name:</h5>
+            <div class="col-12">
+                @Html.TextBoxFor(x => x.RECIPE_NAME,new{@class="form-control bgblur text-light",@disabled=true})
+            </div>
+        </div>
+        <div class="row mt-3 mb-3">
+            <div class="col-lg-4 d-center">
+                <img src="https://cdn4.vectorstock.com/i/1000x1000/16/68/food-logo-template-vector-26541668.jpg" class="img-thumbnail" alt="" />
+            </div>
+            <div class="col-lg-4 ">
+                <div class="row">
+                    <div class="col-12  text-light">
+                        <h5><i class="fa-solid fa-list-check"></i> Instructions: </h5>
+                    </div>
+                    <div class="col-12 scroll text-light bgblur">
+                        <ol>
+                            @foreach (var item in (Model.DESCRIPTION ?? string.Empty).Split(new string[] { Environment.NewLine },
+                            StringSplitOptions.None))
+                            {
+                                <li>@item</li>
+                            }
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="row">
+                    <div class="col-12  text-light">
+                        <h5><i class="fa-solid fa-clipboard-list"></i> Ingredients:</h5>
+                    </div>
+                    <div class="col-12 scroll ">
+                        <table class="table table-striped text-center">
+                            <tr class="text-success">
+                                <th>Name</th>
+                                <th>Quantity</th>
+                            </tr>
+                            @foreach (var item in Model.Ingredients)
+                            {
+                                <tr class="text-info">
+                                    <td>@item.INGREDIENT_NAME</td>
+                                    <td>@item.QUANTITY</td>
+                                </tr>
+                            }
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
